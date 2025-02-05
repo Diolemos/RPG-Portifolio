@@ -9,7 +9,7 @@
     background: black;
     font-size: 16px;
     text-align: center;
-    background-image: url("/images/41856.jpg");
+    background-image: url("./images/41856.jpg");
     background-size: 200px;
     background-repeat: repeat;
     background-position: center;
@@ -22,7 +22,7 @@ html::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("/images/41856.jpg");
+    background-image: url("./images/41856.jpg");
     background-size: 200px;
     background-repeat: repeat;
     background-position: center;
