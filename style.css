@@ -1,11 +1,11 @@
 
  body {
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x : hidden;
     background: black;
     font-size: 16px;
     text-align: center;
@@ -77,16 +77,74 @@ html::before {
     height: auto;
 }
 
-.skills{
+.skills,.projects{
     position: relative;
      margin: 2rem auto; 
     /* width: clamp(200px,60%,600px); */
     box-sizing: border-box;
 }
+.projects{
+    margin-bottom: 5rem;
+}
 
 .rpgui-content {
     overflow: visible !important;
     position:relative;
-    min-height: 100vh;
+    min-height: auto;
     
+}
+
+.projects-container {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.project-card {
+     background: rgba(0, 0, 0, 0.8); 
+    border: 2px solid gold;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.project-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid gold;
+}
+
+.project-details h4 {
+    margin: 10px 0;
+    color: gold;
+}
+
+.project-details p {
+    font-size: 14px;
+    color: white;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+     background: gold; 
+    color: black; 
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: orange;
 }
