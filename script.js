@@ -44,13 +44,26 @@ const projects = [
         liveLink: "https://example.com/todo",
         githubLink: "https://github.com/username/todo"
     },
+
+
+
+        {
+            name: "Restaurant Page",
+            category: "js",
+            image: "./images/projects/BurgerDuke.png",
+            description: "A single page website using javascript modules,npm and webpack. The content is rendered dynamically and each element is a javascript object",
+            liveLink: "https://diolemos.github.io/Restaurant/",
+            githubLink: "https://github.com/Diolemos/Restaurant?tab=readme-ov-file"
+        },
+
+
     {
-        name: "Weather App",
+        name: "Food Order App",
         category: "react",
-        image: "./images/weather.jpg",
-        description: "A weather app built with React and OpenWeather API.",
-        liveLink: "https://example.com/weather",
-        githubLink: "https://github.com/username/weather"
+        image: "./images/projects/gostosuras-ss.png",
+        description: "A food order app built with react.",
+        liveLink: "https://gostosuras-food-order-react-app.netlify.app/",
+        githubLink: "https://github.com/Diolemos/food-order-app"
     },
     {
         name: "Portfolio",
@@ -68,6 +81,17 @@ const projects = [
         liveLink: "https://example.com/chatbot",
         githubLink: "https://github.com/username/chatbot"
     },
+    {
+        name: "blackjack",
+        category: "python",
+        image: "./images/projects/blackjack.png",
+        description: "A text game. lorem ipsum dolor sit amet ",
+        liveLink: "https://replit.com/@pedrodio/Black-jack?v=1",
+        githubLink: "https://github.com/Diolemos/blackjack/tree/main"
+    },
+
+
+    
     {
         name: "E-commerce Platform",
         category: "java",
@@ -101,8 +125,8 @@ function displayProjects(selectedCategory) {
                     <h4>${project.name}</h4>
                     <p>${project.description}</p>
                     <div class="project-links">
-                        <a href="${project.liveLink}" target="_blank" class="btn">Live Demo</a>
-                        <a href="${project.githubLink}" target="_blank" class="btn">GitHub</a>
+                        <a href="${project.liveLink}" target="_blank" ><button class="rpgui-button">Live Demo</button></a>
+                        <a href="${project.githubLink}" target="_blank" ><button class="rpgui-button">GitHub</button></a>
                     </div>
                 </div>
             </div>

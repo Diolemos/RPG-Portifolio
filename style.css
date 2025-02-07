@@ -106,16 +106,16 @@ html::before {
 }
 
 .project-card {
-     background: rgba(0, 0, 0, 0.8); 
+     background: rgba(0, 0, 0, 0.884); 
     border: 2px solid gold;
     padding: 1rem;
-    width: 300px;
+    width: clamp(325px,90%,516px) ;
     text-align: center;
     border-radius: 8px;
 }
 
 .project-image {
-    width: 100%;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     border-bottom: 2px solid gold;
@@ -135,7 +135,7 @@ html::before {
     margin-top: 10px;
 }
 
-.btn {
+/* .btn {
     display: inline-block;
     padding: 5px 10px;
     margin: 5px;
@@ -148,4 +148,4 @@ html::before {
 
 .btn:hover {
     background: orange;
-}
+} */
