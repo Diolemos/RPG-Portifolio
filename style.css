@@ -9,7 +9,7 @@
     background: black;
     font-size: 16px;
     text-align: center;
-    background-image: url("./images/41856.jpg");
+    background-image: url("./images/rpg-pattern-dark.png");
     background-size: 200px;
     background-repeat: repeat;
     background-position: center;
@@ -22,8 +22,8 @@ html::before {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-image: url("./images/41856.jpg");
-    background-size: 200px;
+    background-image: url("./images/rpg-pattern-dark.png");
+    background-size: 400px;
     background-repeat: repeat;
     background-position: center;
     filter: blur(1px);
@@ -32,7 +32,7 @@ html::before {
 
 
     h1 {
-        font-size: 2rem !important ;
+        font-size: 2.5rem !important ;
         outline: 10px !important;
        
         position: relative !important;
@@ -43,6 +43,7 @@ html::before {
         
         margin: 20px auto !important ; /* Centers the block horizontally */
         padding: 10px;
+        -webkit-text-stroke: 2px rgb(77, 32, 3);
     }
 
 
@@ -69,7 +70,7 @@ html::before {
 .card .profile-img {
     width: clamp(80px, 50%, 200px);
     height: clamp(80px, 50%, 200px);
-    filter: sepia(5%) contrast(100%) brightness(70%) saturate(90%) blur(0.5px)  ;
+    filter: sepia(5%) contrast(100%) brightness(90%)    ;
     border: 5px outset rgb(247, 177, 103);
 }
 .card .card-icon{
