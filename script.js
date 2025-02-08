@@ -85,7 +85,7 @@ const projects = [
         name: "blackjack",
         category: "python",
         image: "./images/projects/blackjack.png",
-        description: "A text game. lorem ipsum dolor sit amet ",
+        description: "This project is a Python-based Blackjack game using functions, dictionaries, loops, and modularization. It separates game logic into modules, manages a dynamic deck of cards, and handles user input for game flow.",
         liveLink: "https://replit.com/@pedrodio/Black-jack?v=1",
         githubLink: "https://github.com/Diolemos/blackjack/tree/main"
     },
